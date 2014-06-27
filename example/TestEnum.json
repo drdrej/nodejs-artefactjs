@@ -7,7 +7,7 @@
 
     "name"     : "TestEnum",
 
-    "output"   : "{{project.src}}/java/main/src/{{path}}/{{name}}.{{type}}"
+    "output"   : "{{project.src}}/java/main/src/{{path}}/{{name}}.{{type}}",
 
     "model"    : {
 
