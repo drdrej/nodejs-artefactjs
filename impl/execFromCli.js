@@ -5,6 +5,15 @@
  */
 var nopt = require("nopt");
 
+
+var existsOptionConfig = function( parsed ) {
+    var _ = require( "underscore" );
+
+    if(_.isNull( parsed.config ) ) {
+        throw "You need to pass option: --config=<path>";
+    }
+};
+
 exports.cli = function() {
         var path = require("path");
 
@@ -21,6 +30,7 @@ exports.cli = function() {
             };
 
     var parsed = nopt(knownOpts, shortHands, process.argv, 2);
+    existsOptionConfig(parsed);
 
     console.log( "-- cli options parsed." );
     
