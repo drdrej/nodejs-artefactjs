@@ -1,0 +1,14 @@
+{
+  "name": "artefactjs-example",
+  "version": "0.0.1",
+  "description": "artefacts-package",
+  "main": "artefacts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "drdrej",
+  "license": "MIT",
+  "dependencies": {
+    "fabrique-log": "0.0.6"
+  }
+}

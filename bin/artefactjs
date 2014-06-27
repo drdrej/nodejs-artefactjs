@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+var script = require( '../impl/execFromCli.js' );
+
+var cli = script.cli();
+var impl = require( "../impl/main.js" );
+
+if( cli.version ) {
+    var packageJSON = require( "../package.json" );
+    console.log( "-- version: " + packageJSON.name + "@" + packageJSON.version );
+}
+
+console.log( "-- load config:" + cli.config );
+var config = require( cli.config );
+
+impl.exec( config );
