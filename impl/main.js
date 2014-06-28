@@ -15,11 +15,10 @@ exports.exec = function( config ) {
         .transform( function( element ) {
             var output = _.template( "<%= $processDir %>/<%= $path %>/<%= name %>.<%= type %>", {
                 $processDir : process.cwd(),
-                $path : "",
+                $path : ".",
                 name : element.name,
                 type : element.type
             });
-
 
             return {
                 artefact : {
@@ -29,4 +28,7 @@ exports.exec = function( config ) {
                 src: element
             };
         });
+
+    TODO: hier weiter machen: transformation etc... aktuell ist nicht klar, was mit den daten passiert.
+
 };

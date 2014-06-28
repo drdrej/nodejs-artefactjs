@@ -1,9 +1,9 @@
 {
     "version" : 1,
 
-    "type" : "EnumObjectPattern",
+    "type" : "java",
 
-    "artefact" : "TestEnum",
+    "artefact" : "EnumObjectPattern",
 
     "name"     : "TestEnum",
 
