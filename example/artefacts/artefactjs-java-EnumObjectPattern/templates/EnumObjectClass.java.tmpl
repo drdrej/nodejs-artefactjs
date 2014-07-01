@@ -1,0 +1,18 @@
+// package xyz
+
+// imports
+<% each( '.imports', function( entry ) { %>
+import <%= entry.text() %>;
+<% }) %>
+
+public enum <%= text( '.name' ) %> {
+
+   <% each( '.fields', function( entry ) { %>
+      <%= entry.text() %>;
+   <% }) %>
+
+   <% each( '.methods', function( entry ) { %>
+      <%= entry.text() %>;
+   <% }) %>
+
+}

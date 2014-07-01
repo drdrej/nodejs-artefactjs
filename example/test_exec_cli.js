@@ -2,5 +2,5 @@
 
 var impl = require( "../impl/main.js" );
 
-var config = require( "../example/TestEnum.json" );
+var config = require( "./TestEnum.json" );
 impl.exec( config );

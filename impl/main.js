@@ -9,93 +9,17 @@ exports.exec = function( config ) {
         return;
     }
 
-    var json = require( 'json-tools' );
+    var pathUtil = require( 'path' );
 
-    json.json( config )
-        .transform( function( element ) {
-            var output = _.template( "<%= $processDir %>/<%= $path %>/<%= name %>.<%= type %>", {
-                $processDir : process.cwd(),
-                $path : ".",
-                name : element.name,
-                type : element.type
-            });
+    var name = "artefactjs-java-EnumObjectPattern";
 
-            return {
-                artefact : {
-                   name : ("artefactjs-" + element.type + "-" + element.artefact)
-                },
-                output : output,
-                src: element
-            };
-        })
+    var path = pathUtil.normalize(pathUtil.resolve( process.cwd(), 'artefacts' ));
 
-        /* build fields ::: */
-        .transform( function(element){
-            element.fields = [];
+    console.log( "[LOAD_ARTEFACT] " + path );
+    var artefacts = require( path).load;
 
-            var selectable = json.selectable( element );
-            selectable.each( ".src > .model > .fields", function( fieldDef ) {
-                console.log( "-- build field: %j", fieldDef );
-                var field = fieldDef.render( "private final <%= text( '.type' ) %>  <%= text( '.name' ) %>;");
+    var artefact = artefacts( name );
 
-                element.fields.push(field);
-            });
 
-            return element;
-        })
-
-        .transform( function( element ) {
-            element.methods = [];
-
-            json.selectable( element )
-                .each( ".src > .model > .fields",
-                    function( fieldDef ) {
-                      var field = fieldDef.render( 'file://../templates/GetterMethod.java.tmpl');
-                      element.methods.push(field);
-                });
-
-            return element;
-        })
-        .transform( function(element) {
-            return element;
-        })
-        .render( "./<%= output %>" );
-
+    artefact.exec(config);
 };
-
-
-/*
-TODO: hier weiter machen: transformation etc... aktuell ist nicht klar, was mit den daten passiert.
-
-
-
-{
-    "version" : 1,
-
-    "type" : "java",
-
-    "artefact" : "EnumObjectPattern",
-
-    "name"     : "TestEnum",
-
-    "output"   : "{{project.src}}/java/main/src/{{path}}/{{name}}.{{type}}",
-
-    "model"    : {
-
-    "imports" : [ "java.lang.String" ],
-
-        "fields"  : [
-        {
-            "name" : "_id",
-            "type" : "String"
-        }
-    ],
-
-        "values" : [
-        {
-            "_id" : "XYZ"
-        }
-    ]
-}
-}
-    */
