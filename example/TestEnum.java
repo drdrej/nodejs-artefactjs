@@ -5,7 +5,7 @@
 import java.lang.String;
 
 
-public enum artefactjs-java-EnumObjectPatternTestEnum_id {
+public enum undefined {
 
    
       _idString;

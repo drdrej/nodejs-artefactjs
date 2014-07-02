@@ -5,9 +5,9 @@
 import <%= entry.text() %>;
 <% }) %>
 
-public enum <%= text( '.name' ) %> {
+public enum <%= text( '#name' ) %> {
 
-   <% each( '.fields', function( entry ) { %>
+   <% each( '#fields', function( entry ) { %>
       <%= entry.text() %>;
    <% }) %>
 
