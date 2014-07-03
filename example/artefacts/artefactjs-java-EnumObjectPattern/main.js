@@ -19,9 +19,13 @@ exports.exec = function( config, options) {
         .transform( 'file://' + __dirname + '/transform/addFields' )
         .transform( 'file://' + __dirname + '/transform/addMethods' )
 
-
+        /* .dump( "file://" + __dirname + "/test/TestEnumRendered.json" ) */
         .render( "file://" + __dirname +"/templates/EnumObjectClass.java.tmpl",
                  "file://<%= $output %>" );
 
 };
+
+/*
+rendering after dump() do not work.
+ */
 

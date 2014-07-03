@@ -3,7 +3,7 @@
  *
  * @type {string}
  */
-var DEFAULT_OUTPUT_PATH = "<%= $prjDir %>/<%= $path %>/<%= name %>.<%= type %>"
+var DEFAULT_OUTPUT_PATH = "<%= $path %>/<%= $fileName %>.<%= $fileType %>";
 
 exports.transform = function( model ) {
     var get = function( container, key, defaultVal ) {
@@ -25,8 +25,8 @@ exports.transform = function( model ) {
     model.$output = _.template(output, {
         $prjDir : model.$prjDir,
         $path : model.$path,
-        name : fileName,
-        type : fileType
+        $fileName : fileName,
+        $fileType : fileType
     });
 
     return model;
