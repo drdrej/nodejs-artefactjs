@@ -15,7 +15,10 @@ exports.exec = function( config ) {
     var artefacts = require( path).load;
     var artefact = artefacts( name );
 
-    artefact.exec(config);
+    artefact.exec(config, {
+        $prjDir : process.cwd(),
+        $path : pathUtil.dirname(config.$path)
+    });
 };
 
 
