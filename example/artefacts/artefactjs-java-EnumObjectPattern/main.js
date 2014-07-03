@@ -17,9 +17,11 @@ exports.exec = function( config, options) {
         .transform( 'file://' + __dirname + '/transform/setFileType' )
         .transform( 'file://' + __dirname + '/transform/setOutput' )
         .transform( 'file://' + __dirname + '/transform/addFields' )
+        .transform( 'file://' + __dirname + '/transform/addMethods' )
 
-        .dump( 'file://' + __dirname + '/test.json' );
 
-         // .render()
+        .render( "file://" + __dirname +"/templates/EnumObjectClass.java.tmpl",
+                 "file://<%= $output %>" );
+
 };
 

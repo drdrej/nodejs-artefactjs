@@ -35,5 +35,8 @@
     "$output": "/home/asiebert/projects/nodejs-artefactjs/example//home/asiebert/projects/nodejs-artefactjs/example/TestEnum.java",
     "fields": [
         "private final String  _id;"
+    ],
+    "methods": [
+        "\n/**\n * GETTER for property ;\n */\npublic final  () {\n     return ;\n}"
     ]
 }
