@@ -16,7 +16,7 @@ public enum TestEnum {
     /**
      * GETTER for property _id;
      */
-    public final  () {
+    public final String undefined() {
          return _id;
     };
    
