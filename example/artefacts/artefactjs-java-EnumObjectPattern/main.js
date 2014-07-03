@@ -11,12 +11,15 @@ exports.exec = function( config, options) {
             };
         })
         .asSelectable()
+        .transform( 'file://' + __dirname + '/transform/addCtxPaths' )
 
         .transform( 'file://' + __dirname + '/transform/setClassName' )
         .transform( 'file://' + __dirname + '/transform/setFileType' )
         .transform( 'file://' + __dirname + '/transform/setOutput' )
-        .transform( 'file://' + __dirname + '/transform/addCtxPaths' )
+        .transform( 'file://' + __dirname + '/transform/addFields' )
 
         .dump( 'file://' + __dirname + '/test.json' );
+
+         // .render()
 };
 

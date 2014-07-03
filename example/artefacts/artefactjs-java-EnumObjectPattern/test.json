@@ -30,7 +30,10 @@
         "className": "TestEnum",
         "fileType": "java"
     },
-    "$output": "//TestEnum.java",
     "$prjDir": "/home/asiebert/projects/nodejs-artefactjs/example",
-    "$path": "/home/asiebert/projects/nodejs-artefactjs/example"
+    "$path": "/home/asiebert/projects/nodejs-artefactjs/example",
+    "$output": "/home/asiebert/projects/nodejs-artefactjs/example//home/asiebert/projects/nodejs-artefactjs/example/TestEnum.java",
+    "fields": [
+        "private final String  _id;"
+    ]
 }
