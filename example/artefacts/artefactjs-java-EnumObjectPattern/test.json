@@ -26,8 +26,11 @@
                     ]
                 }
             }
-        }
+        },
+        "className": "TestEnum",
+        "fileType": "java"
     },
+    "$output": "//TestEnum.java",
     "$prjDir": "/home/asiebert/projects/nodejs-artefactjs/example",
     "$path": "/home/asiebert/projects/nodejs-artefactjs/example"
 }
