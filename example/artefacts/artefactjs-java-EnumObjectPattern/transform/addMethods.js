@@ -14,4 +14,4 @@ exports.transform = function( model, options ) {
     model.put( '#methods', methods);
 
     return model;
-}
+};
