@@ -1,6 +1,4 @@
-// Example to create placeholders
+// Example: to create artefacts :::
 
 var impl = require( "../impl/main.js" );
-
-var config = require( "./TestEnum.json" );
-impl.exec( config );
+impl.artefact(  "./TestEnum.json" );

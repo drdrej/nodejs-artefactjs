@@ -1,25 +1,34 @@
+/**
+ * loads config of an artefact.
+ *
+ * @type {Object} or NULL if json not found.
+ */
+exports.config = function(path) {
+    var pathUtil = require( 'path' );
+    var resolved = pathUtil.resolve( process.cwd(), path);
 
+    var load = require('./loadConfig').load;
+
+    return load(resolved);
+};
+
+/**
+ * load and exec an artefact.
+ *
+ * @param {config} config for an artefact.
+ */
 exports.exec = function( config ) {
     console.log( "-- main.exec()" );
 
-    var _ = require( "underscore" );
+    var exec = require( './execArtefact' ).exec;
+    exec(config);
+};
 
-    if(_.isNull(config) ) {
-        console.log( "ERROR: needs config. passed param:config is NULL/undefined.");
-        return;
-    }
-
-    var pathUtil = require( 'path' );
-
-    var name = "artefactjs-java-EnumObjectPattern";
-
-    var path = pathUtil.normalize(pathUtil.resolve( process.cwd(), 'artefacts' ));
-
-    console.log( "[LOAD_ARTEFACT] " + path );
-    var artefacts = require( path).load;
-
-    var artefact = artefacts( name );
-
-
-    artefact.exec(config);
+/**
+ *
+ * @param path config-path of an artefact. never NULL!
+ */
+exports.artefact = function( path ) {
+    var config = exports.config(path);
+    exports.exec(config);
 };

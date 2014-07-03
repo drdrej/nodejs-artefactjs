@@ -1,26 +1,30 @@
 {
     "json": {
         "$src": {
-            "version": 1,
-            "type": "java",
-            "artefact": "EnumObjectPattern",
-            "name": "TestEnum",
-            "output": "{{project.src}}/java/main/src/{{path}}/{{name}}.{{type}}",
-            "model": {
-                "imports": [
-                    "java.lang.String"
-                ],
-                "fields": [
-                    {
-                        "name": "_id",
-                        "type": "String"
-                    }
-                ],
-                "values": [
-                    {
-                        "_id": "XYZ"
-                    }
-                ]
+            "$path": "/home/asiebert/projects/nodejs-artefactjs/example/TestEnum.json",
+            "$artefact": "artefactjs-java-EnumObjectPattern",
+            "$json": {
+                "version": 1,
+                "type": "java",
+                "artefact": "EnumObjectPattern",
+                "name": "TestEnum",
+                "output": "{{project.src}}/java/main/src/{{path}}/{{name}}.{{type}}",
+                "model": {
+                    "imports": [
+                        "java.lang.String"
+                    ],
+                    "fields": [
+                        {
+                            "name": "_id",
+                            "type": "String"
+                        }
+                    ],
+                    "values": [
+                        {
+                            "_id": "XYZ"
+                        }
+                    ]
+                }
             }
         }
     },

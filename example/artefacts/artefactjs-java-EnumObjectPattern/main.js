@@ -1,6 +1,5 @@
 
 
-// TODO: refactor transformations.
 exports.exec = function( config, options) {
     var _ = require( "underscore" );
     var json = require( 'json-tools' );
@@ -12,8 +11,10 @@ exports.exec = function( config, options) {
             };
         })
         .asSelectable()
+
         .transform( 'file://' + __dirname + '/transform/createClassModel' )
         .transform( 'file://' + __dirname + '/transform/addCtxPaths' )
+
         .dump( 'file://' + __dirname + '/test.json' );
 };
 
