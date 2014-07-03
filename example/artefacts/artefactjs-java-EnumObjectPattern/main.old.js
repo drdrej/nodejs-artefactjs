@@ -64,3 +64,17 @@ exports.exec = function( config ) {
         .render( "file://" + __dirname +"/templates/EnumObjectClass.java.tmpl", "file://<%= json.output %>" );
 
 };
+
+/*
+   Ideen f. transform()
+   -----------------------------
+
+   path:
+   -----
+   #xxx -> stores in field.
+   file:// stores in file.
+   ./ -> stores in file relative to current context.
+   ~/ -> file relative to current process.
+
+   Idee: filter() in die API aufnehmen.
+ */
