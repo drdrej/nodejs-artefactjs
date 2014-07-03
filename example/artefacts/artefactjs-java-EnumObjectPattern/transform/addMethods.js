@@ -1,15 +1,17 @@
 
 
 exports.transform = function( model, options ) {
-    model.methods = [];
+    var methods = [];
 
     var tmpl = "file://" + __dirname +"/../templates/GetterMethod.java.tmpl";
 
     model.each( ".$src > .$json > .model > .fields > *",
         function( fieldDef ) {
             var field = fieldDef.render( tmpl );
-            model.methods.push(field);
+            methods.push(field);
         });
+
+    model.put( '#methods', methods);
 
     return model;
 }
