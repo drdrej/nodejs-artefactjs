@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "underscore": "~1.6.0",
-    "json-tools": "~0.2.21",
+    "json-tools": "~0.2.22",
     "nopt": "~3.0.0"
   }
 }

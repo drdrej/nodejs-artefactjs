@@ -5,7 +5,7 @@
 import java.lang.String;
 
 
-public enum undefined {
+public enum TestEnum {
 
    
       private final String  _id;;
