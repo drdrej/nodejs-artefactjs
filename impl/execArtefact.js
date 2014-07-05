@@ -8,6 +8,19 @@ exports.exec = function( config ) {
         return;
     }
 
+
+    var path = process.cwd() + "/artefacts/artefacts.js";
+    var artefacts = require( path).load;
+    var artefact = artefacts( name );
+
+    var pathUtil = require( 'path' );
+    artefact.exec(config, {
+        $prjDir : process.cwd(),
+        $path : pathUtil.dirname(config.$path)
+    });
+
+
+    /*
     var pathUtil = require( 'path' );
     var path = pathUtil.normalize(pathUtil.resolve( process.cwd(), 'artefacts' ));
 
@@ -19,6 +32,8 @@ exports.exec = function( config ) {
         $prjDir : process.cwd(),
         $path : pathUtil.dirname(config.$path)
     });
+
+    */
 };
 
 

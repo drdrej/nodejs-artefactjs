@@ -3,7 +3,7 @@
 
     "type" : "java",
 
-    "artefact" : "EnumObjectPattern",
+    "artefact" : "enumobjpattern",
 
     "name"     : "TestEnum",
 

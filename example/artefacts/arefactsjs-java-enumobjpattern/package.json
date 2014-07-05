@@ -1,8 +1,8 @@
 {
-  "name": "artefactjs-java-EnumObjectPattern",
+  "name": "artefactjs-java-enumobjpattern",
   "version": "0.0.1",
   "description": "artefactjs extension to create EnumObjectPattern artefacts",
-  "main": "api.js",
+  "main": "artefact.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
