@@ -21,7 +21,7 @@ exports.exec = function( config, options) {
         .transform( 'file://' + __dirname + '/transform/addImplements' )
         .transform( 'file://' + __dirname + '/transform/addConstructor' )
 
-       //  .dump( "file://" + __dirname + "/test/TestEnumRendered.json" )
+        // .dump( "file://" + __dirname + "/test/TestEnumRendered.json" )
         .render( "file://" + __dirname +"/templates/EnumObjectClass.java.tmpl",
                 "file://<%= $output %>" );
 

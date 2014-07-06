@@ -5,7 +5,10 @@
 import <%= entry.text() %>;
 <% }) %>
 
-public enum <%= text( '#className' ) %> <%= text('#implements') %>
+public enum <%= text( '#className' ) %>
+   <% each( '.model > .implements > *', function( impl )  { %>
+       implements <%= impl.text() %>
+   <% }); %>
 {
 
        <% each( '#fields', function( field ) { %>
