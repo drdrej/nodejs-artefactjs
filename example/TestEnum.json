@@ -13,10 +13,16 @@
 
         "imports" : [ "java.lang.String" ],
 
+        "implements" : ["com.touchableheroes.TestInterface"],
+
         "fields"  : [
             {
                 "name" : "_id",
                 "type" : "String"
+            },
+            {
+                "name" : "count",
+                "type" : "int"
             }
          ],
 

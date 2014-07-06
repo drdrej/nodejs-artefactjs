@@ -18,6 +18,7 @@ exports.exec = function( config, options) {
         .transform( 'file://' + __dirname + '/transform/setOutput' )
         .transform( 'file://' + __dirname + '/transform/addFields' )
         .transform( 'file://' + __dirname + '/transform/addMethods' )
+        .transform( 'file://' + __dirname + '/transform/addImplements' )
         .transform( 'file://' + __dirname + '/transform/addConstructor' )
 
        //  .dump( "file://" + __dirname + "/test/TestEnumRendered.json" )
