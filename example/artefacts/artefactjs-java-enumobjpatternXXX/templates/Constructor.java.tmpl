@@ -1,0 +1,12 @@
+
+
+
+
+
+    <%= text( '#className' ) %>( <%= list( ".model > .fields > *",
+                                           "file://./Param.java.tmpl", ", ") %> )
+    {
+       <% each( '.model > .fields > *', function( field ) { %>
+          this.<%= field.text('#name') %> = <%= field.text('#name') %>;
+       <% }) %>
+    }

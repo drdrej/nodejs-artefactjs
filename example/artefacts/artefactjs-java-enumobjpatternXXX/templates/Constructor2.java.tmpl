@@ -1,0 +1,6 @@
+
+    <%= text( '#className' ) %>(<% each( '.model > .fields > *', function( field ) { %>final <%= field.text( '#type' ) %> <%= field.text( '#name' ) %>,<% }) %>) {
+       <% each( '.model > .fields > *', function( field ) { %>
+          this.<%= field.text('#name') %> = <%= field.text('#name') %>;
+       <% }) %>
+    }
