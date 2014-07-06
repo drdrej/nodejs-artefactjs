@@ -2,36 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="218151f9-9710-412a-81f2-9fd8dadc4a55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/templates/Constructor.java.tmpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/templates/Constructor2.java.tmpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/templates/EnumObjectClass.java.tmpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/templates/GetterMethod.java.tmpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/transform/addConstructor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/transform/addCtxPaths.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/transform/addFields.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addMethods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/artefact.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/transform/setClassName.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/transform/setFileType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/transform/setOutput.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/TestEnum.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enumobjpattern/artefact.js" afterPath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/api.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enumobjpattern/package.json" afterPath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enumobjpattern/templates/Constructor.java.tmpl" afterPath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/templates/Constructor.java.tmpl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enumobjpattern/templates/Constructor2.java.tmpl" afterPath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/templates/Constructor2.java.tmpl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enumobjpattern/templates/EnumObjectClass.java.tmpl" afterPath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/templates/EnumObjectClass.java.tmpl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enumobjpattern/templates/GetterMethod.java.tmpl" afterPath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/templates/GetterMethod.java.tmpl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enumobjpattern/transform/addConstructor.js" afterPath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addConstructor.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enumobjpattern/transform/addCtxPaths.js" afterPath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addCtxPaths.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enumobjpattern/transform/addFields.js" afterPath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addFields.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enumobjpattern/transform/addMethods.js" afterPath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/transform/addMethods.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enumobjpattern/transform/setClassName.js" afterPath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/setClassName.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enumobjpattern/transform/setFileType.js" afterPath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/setFileType.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enumobjpattern/transform/setOutput.js" afterPath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/setOutput.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/Param.java.tmpl" afterPath="$PROJECT_DIR$/example/Param.java.tmpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/TestEnum.json" afterPath="$PROJECT_DIR$/example/TestEnum.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/artefacts/artefacts.js" afterPath="$PROJECT_DIR$/example/artefacts/artefacts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addImplements.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/templates/Constructor.java.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/templates/Constructor2.java.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/templates/EnumObjectClass.java.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/templates/GetterMethod.java.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/transform/addConstructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/transform/addCtxPaths.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/transform/addFields.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/transform/addMethods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/transform/setClassName.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/transform/setFileType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/transform/setOutput.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/artefact.js" afterPath="$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/artefact.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/package.json" afterPath="$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/templates/Constructor.java.tmpl" afterPath="$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/templates/Constructor.java.tmpl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/templates/Constructor2.java.tmpl" afterPath="$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/templates/Constructor2.java.tmpl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/templates/EnumObjectClass.java.tmpl" afterPath="$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/templates/EnumObjectClass.java.tmpl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/templates/GetterMethod.java.tmpl" afterPath="$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/templates/GetterMethod.java.tmpl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addConstructor.js" afterPath="$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addConstructor.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addCtxPaths.js" afterPath="$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addCtxPaths.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addFields.js" afterPath="$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addFields.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addMethods.js" afterPath="$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addMethods.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/setClassName.js" afterPath="$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/setClassName.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/setFileType.js" afterPath="$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/setFileType.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/setOutput.js" afterPath="$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/setOutput.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nodejs-artefactjs.iws" />
@@ -75,31 +72,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addMethods.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addMethods.js">
+      <file leaf-file-name="addMethods.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addMethods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.30874786" vertical-offset="0" max-vertical-offset="583">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="artefact.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/artefact.js">
+      <file leaf-file-name="artefact.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/artefacts/node_modules/artefactjs-java-enum-obj-pattern/artefact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5660377" vertical-offset="0" max-vertical-offset="583">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestEnum.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/TestEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addImplements.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addImplements.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="artefact.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/artefact.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
               <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="480">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,30 +133,10 @@
         </entry>
       </file>
       <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/package.json">
+        <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="360">
               <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Selectable.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/json-tools/impl/Selectable.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="685" max-vertical-offset="1605">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetterMethod.java.tmpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/templates/GetterMethod.java.tmpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -158,10 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/load_artefact.js" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/impl/execFromCli.js" />
-        <option value="$PROJECT_DIR$/test/test_exec_cli.js" />
         <option value="$PROJECT_DIR$/templates/GetterMethod.java.tmpl" />
         <option value="$PROJECT_DIR$/node_modules/json-tools/impl/io/selectV2.js" />
         <option value="$PROJECT_DIR$/node_modules/json-tools/impl/asText.js" />
@@ -209,6 +202,10 @@
         <option value="$PROJECT_DIR$/example/TestEnum.json" />
         <option value="$PROJECT_DIR$/example/artefacts/node_modules/arefactsjs-java-enum-obj-pattern/package.json" />
         <option value="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/artefact.js" />
+        <option value="$PROJECT_DIR$/example/artefacts/node_modules/artefactjs-java-enum-obj-pattern/artefact.js" />
+        <option value="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addImplements.js" />
+        <option value="$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addMethods.js" />
+        <option value="$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addMethods.js" />
       </list>
     </option>
   </component>
@@ -272,157 +269,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs-artefactjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs-artefactjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs-artefactjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs-artefactjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artefacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs-artefactjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs-artefactjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artefacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs-artefactjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs-artefactjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artefacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artefactjs-java-enumobjpatternXXX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs-artefactjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs-artefactjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artefacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arefactsjs-java-enum-obj-pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs-artefactjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs-artefactjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artefacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arefactsjs-java-enum-obj-pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs-artefactjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs-artefactjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artefacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arefactsjs-java-enum-obj-pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -437,6 +284,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs-artefactjs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs-artefactjs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artefacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arefactsjs-java-enum-obj-pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs-artefactjs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs-artefactjs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artefacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arefactsjs-java-enum-obj-pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transform" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -459,6 +346,7 @@
       <recent name="$PROJECT_DIR$/impl" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/artefacts" />
       <recent name="$PROJECT_DIR$/example/artefacts" />
       <recent name="$PROJECT_DIR$/example/artefacts/node_modules" />
       <recent name="$PROJECT_DIR$/example" />
@@ -554,7 +442,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39648032" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36853004" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36853004" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -585,22 +473,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addFields.js</url>
+          <url>file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addFields.js</url>
           <line>5</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addMethods.js</url>
-          <line>13</line>
+          <url>file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addMethods.js</url>
+          <line>16</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addMethods.js</url>
-          <line>12</line>
+          <url>file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addMethods.js</url>
+          <line>15</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addMethods.js</url>
+          <url>file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addMethods.js</url>
           <line>5</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
@@ -612,20 +500,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/impl/execFromCli.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="645">
-          <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/TestEnum.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/load_artefact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
@@ -794,21 +668,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/setFileType.js">
+    <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/setFileType.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addCtxPaths.js">
+    <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addCtxPaths.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/setClassName.js">
+    <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/setClassName.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -822,7 +696,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addFields.js">
+    <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addFields.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
           <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
@@ -830,21 +704,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/setOutput.js">
+    <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/setOutput.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="630">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addConstructor.js">
+    <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addConstructor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
           <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/templates/Constructor2.java.tmpl">
+    <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/templates/Constructor2.java.tmpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="939">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -859,14 +733,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/templates/Constructor.java.tmpl">
+    <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/templates/Constructor.java.tmpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18783543" vertical-offset="0" max-vertical-offset="559">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/templates/EnumObjectClass.java.tmpl">
+    <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/templates/EnumObjectClass.java.tmpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26833633" vertical-offset="0" max-vertical-offset="559">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
@@ -901,7 +775,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/templates/GetterMethod.java.tmpl">
+    <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/templates/GetterMethod.java.tmpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
@@ -917,15 +791,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/artefacts/artefactjs-java-enumobjpatternXXX/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/package.json">
+    <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="360">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
@@ -957,18 +823,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/transform/addMethods.js">
+    <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/artefact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/artefacts/arefactsjs-java-enum-obj-pattern/artefact.js">
+    <entry file="file://$PROJECT_DIR$/example/artefacts/node_modules/artefactjs-java-enum-obj-pattern/artefact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5660377" vertical-offset="0" max-vertical-offset="583">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addImplements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/TestEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artefacts/arefactsjs-java-enum-obj-pattern/transform/addMethods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30874786" vertical-offset="0" max-vertical-offset="583">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>

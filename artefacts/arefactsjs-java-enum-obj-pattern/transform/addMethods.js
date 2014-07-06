@@ -7,8 +7,11 @@ exports.transform = function( model, options ) {
 
     model.each( ".$src > .$json > .model > .fields > *",
         function( fieldDef ) {
-            fieldDef.put( '#methodName', "getXYZ" );
-            fieldDef.put( 'methodName', "getXYZ" );
+            var S = require( 'string' );
+            var name = fieldDef.text( '#name' );
+            var methodName = "get" + S(name).capitalize();
+
+            fieldDef.put( '#methodName', methodName);
 
             var field = fieldDef.render( tmpl );
             methods.push(field);
