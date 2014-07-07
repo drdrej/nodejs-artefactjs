@@ -9,6 +9,7 @@
   "author": "drdrej",
   "license": "MIT",
   "dependencies": {
-    "fabrique-log": "0.0.6"
+    "fabrique-log": "0.0.6",
+    "artefactjs-java-enum-obj-pattern": "0.0.3"
   }
 }

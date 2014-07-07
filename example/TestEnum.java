@@ -16,10 +16,6 @@ public enum TestEnum implements com.touchableheroes.TestInterface
 
        
           
-
-
-
-
     TestEnum( final String _id, final int count )
     {
        

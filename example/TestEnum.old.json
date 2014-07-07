@@ -27,16 +27,8 @@
          ],
 
         "states" : {
-
-           "START" : {
-               "_id": "XYZ",
-               "count": 11
-           },
-
-           "END" : {
-                "_id": "ABC",
-                "count": 12
-            }
+            "_id" : "XYZ",
+            "count" : 11
          }
     }
 }
