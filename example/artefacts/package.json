@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "fabrique-log": "0.0.6",
-    "artefactjs-java-enum-obj-pattern": "0.0.3"
+    "artefactjs-java-enum-obj-pattern": ">=0.0.3"
   }
 }
