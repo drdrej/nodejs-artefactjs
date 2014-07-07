@@ -1,6 +1,6 @@
 {
-  "name": "artefact.js",
-  "version": "0.0.1",
+  "name": "artefactjs",
+  "version": "0.0.2",
   "description": "Generates text-files based on template and model",
   "main": "index.js",
   "scripts": {
