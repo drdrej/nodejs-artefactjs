@@ -1,6 +1,6 @@
 {
   "name": "artefactjs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Generates text-files based on template and model",
   "main": "impl/main.js",
   "scripts": {
@@ -15,6 +15,7 @@
     "url": "https://github.com/drdrej/nodejs-artefactjs.git"
   },
   "keywords": [
+    "experimental",
     "generate",
     "text",
     "generator",
